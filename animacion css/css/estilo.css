@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* TRANSFORMACIÓN DE UNA CAPA */
+#capa1{
+    width: 200px;
+    height: 100px;
+    background: lightseagreen;
+    transform:rotate3d(1,1,0,45deg);
+}
+/* TRANSICIÓN DE UNA CAPA */
+#capa2{
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+    background: palevioletred;
+    transition: all 1s 500ms;
+}
+#capa2:hover{
+    margin-top: 100px;
+    background: khaki;
+}
+#capa2:active{
+    background: mediumturquoise;
+}
+#capa3{
+    width: 300px;
+    height: 200px;
+    background: slateblue;
+    margin: 0 auto;
+    transition: all 1s;
+}
+#capa3:active{
+    transform: scale(2,2);
+}
+/*CAPA CON ANIMATION */
+#capa4{
+    width: 200px;
+    height: 200px;
+    background: indianred;
+    position: absolute;
+    left:600px;
+    top: 500px;
+    animation: mover 5s forwards;
+    animation-iteration-count: infinite;
+}
+@keyframes mover{
+    25%{
+        top:200px;
+        background: aquamarine;
+    }
+    50%{
+        left: 900px;
+        background: darkcyan;
+        width: 400px;
+    }
+    75%{
+        top:500px;
+        background: greenyellow;
+        width: 100px;
+    }
+    100%{
+        left: 600px;
+        background: fuchsia;
+    }
+}

@@ -1,0 +1,61 @@
+@charset "utf-8";
+:root{
+    --fondo: darkgreen;
+    --texto:snow;
+    --fondoarticulo: lightgreen;
+    --ancho:850px;
+    --hueco:15px;
+}
+
+#ejemplo1{
+    width: 900px;
+    margin: 30px auto;
+    background: var(--fondo);
+    overflow: hidden;
+}
+#ejemplo1 article{
+    margin: 20px;
+    background: var(--fondoarticulo);
+    color: var(--texto);
+}
+.diferente{
+    --fodoarticulo:tomato;
+    --texto:brown;
+    background: var(--fodoarticulo);
+    color: var(--texto);
+}
+#ejemplo2{
+    background: var(--fondo);
+    color: var(--texto);
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#ejemplo2 article{
+    background: var(--fondoarticulo);
+    margin: 20px auto;
+    width: var(--ancho);
+    padding: var(--hueco);
+}
+#ejemplo3{
+    background: var(--fondo);
+    color: var(--texto);
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#ejemplo3 article{
+    background: var(--fondoarticulo);
+    margin: 20px auto;
+    width: var(--ancho);
+    padding: var(--hueco);
+}
+#ejemplo3 article:first-child img{
+    filter: grayscale(100%) contrast(150%);
+}
+#ejemplo3 article:nth-child(2) img{
+    filter: saturate(200%) invert(100%);
+}
+#ejemplo3 article:last-child img{
+    filter: brightness(100%) sepia(100%);
+}

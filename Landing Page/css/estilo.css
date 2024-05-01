@@ -1,0 +1,51 @@
+@charset "utf-8";
+body, h1, h2, h3{
+    font-family: Lato, sans-serif;
+    font-weight: 700;
+}
+header{
+	color: #f8f8f8;
+	background: url(../img/intro-bg.jpg) no-repeat center;
+    background-size: cover;
+    padding: 13% 0;
+}
+h1{
+	text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+	font-size: 5em;
+}
+h2{
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+header hr{
+	width: 400px;
+    margin: 1rem auto;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+    opacity: 1;
+}
+header ul li a{
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 2px;
+}
+article nav li a, header nav li a{
+    width: 175px;
+}
+article hr{
+	width: 200px;
+	border-top: 3px solid #e7e7e7;
+    opacity: 1;
+    margin: 1rem auto;
+}
+#contact h3{
+	margin: 0;
+	text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+	font-size: 3em;
+}
+#contact{
+    padding: 100px 0;
+    color: #f8f8f8;
+	background: url(../img/banner-bg.jpg) no-repeat left 0px;
+	background-size: cover;
+	background-attachment: fixed;
+}

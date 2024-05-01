@@ -1,0 +1,25 @@
+@charset "utf-8";
+#elemento{
+    border: medium double blue;
+    background: lightblue;
+}
+.padre{
+    border: thin solid red;
+    background:lightcoral;
+}
+.hijos{
+    border: thin solid green;
+    background: lightgreen;
+}
+.descendientes{
+    border: thin solid orange;
+    background:lightsalmon;
+}
+.ancestros{
+    border: thin solid yellow;
+    background: lightyellow;
+}
+.hermanos{
+    border: thin solid grey;
+    background: lightgrey;
+}

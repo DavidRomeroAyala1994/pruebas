@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+#texto{
+    background-color: lime;
+    width: 800px;
+    border: groove 5px darkolivegreen;
+    margin: 10px auto;
+    padding: 5px ;
+}
+#tabla{
+    text-align: center auto;
+    width: 300px;
+    background-color: aqua;
+}
+
+#imagen{
+    background-color: chocolate;;
+    width: 800px;
+    border: groove 5px darkolivegreen;
+    margin: 10px auto;
+    padding: 5px ;
+}
+#vineta{
+    width: 400px;
+    border: groove;
+    margin: 0 auto;
+    padding: 0;
+}
+img{border-radius: 50%;}
+table{
+    background: lime;
+    color: brown;
+    border: solid 3px red;
+    border-collapse: collapse;
+}
+td{
+    border: solid 3px blue;
+}
+li{
+list-style-image:url(../img/Vineta2.GIF) ;
+}

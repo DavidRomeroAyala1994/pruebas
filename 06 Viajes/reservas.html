@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajes Espaciales</title>
+    <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Baumans&family=Play:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <nav>
+                <div><a href="index.html">Home</a></div>
+                <div><a href="viajes.html">Viajes</a></div>
+                <div><a href="ofertas.html">Ofertas</a></div>
+                <div><a href="reservas.html">Reservas</a></div>
+                <div><a href="contacto.html">Contacto</a></div>
+            </nav>
+            <div id="logo">
+                <h1>VIAJES ESPACIALES</h1>
+                <p>Diseñado por Raquel</p>
+            </div>
+        </header>
+        <main>
+            <section>
+            <h2>RESERVAS</h2>    
+            <article>
+                <form action="mailto:ejemploslogos@gmail.com" method="post" enctype="text/plain" id="formulario" name="formulario">
+
+                    <h3>datos del viaje</h3>
+                    <label for="viaje">viejes:</label>
+                    <select name="viaje" id="viaje">
+                        <option value="#">elige el viaje</option>
+                        <option value="jupiter">jupiter</option>
+                        <option value="marte">Marte</option>
+                        <option value="neptuno">neptuno</option>
+                        <option value="pluton">plutón</option>
+                        <option value="ff123">ff123</option>
+                    </select><br>
+                    <label for="billetes">Billete:</label>
+                    <input type="radio" name="billete" id="primera" value="primera">
+                    <label for="mujer">primera</label>
+                    <input type="radio" name="billete" id="segunda" value="segunda">
+                    <label for="hombre">segunda</label>
+                    <input type="radio" name="billete" id="turista" value="turista">
+                    <label for="hombre">turista</label><br>
+                    <label for="hotel">Hotel:</label><br>
+                    
+                    <select name="hotel" id="hotel" size="3">
+                        <option value="estrella1">estrella1</option>
+                        <option value="estrella2">estrella2</option>
+                        <option value="estrella3">estrella3</option>
+                        <option value="estrella4">estrella4</option>
+                        <option value="estrella5">estrella5</option>
+                    </select><br>
+                    <label for="comidas">Comidas:</label>
+                    <input type="radio" name="comidas" id="desayuno" value="desayuno">
+                    <label for="mujer">desayuno</label>
+                    <input type="radio" name="comidas" id="comida" value="comida">
+                    <label for="hombre">comida</label>
+                    <input type="radio" name="comidas" id="cena" value="cena">
+                    <label for="hombre">cena</label><br>
+                    <h3>datos del cliente</h3>
+                    <input type="text" name="nombre" id="nombre" size="50" maxlength="45"  placeholder="Escribe tu nombre"><br>
+                    <input type="text" name="apellido" id="apellido" size="50" maxlength="45"  placeholder="Escribe tu apellido"><br>
+                    <input type="text" name="direccion" id="direccion" size="50" maxlength="45"  placeholder="direccion y poblacion"><br>
+                    <input type="text" name="nif" id="nif" pattern="^[0-9|XYZxyz][-]?[0-9]{7}[-]?[a-zA-Z]$" size="50" maxlength="45"  placeholder="NIF o NIE"><br>
+                    <input type="text" name="tarjeta" id="tarjeta" size="50" maxlength="45"  placeholder="tarjeta de credito"><br>
+                    <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="comantarios"></textarea><br>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Restablecer">
+                </form>
+                
+            </article>
+            </section>
+            <aside>
+                <h2>PROMOCIONES</h2>
+                <article>
+                    <p>
+                    <span class="titular_aside">Viajes intergalácticos a nuestras galaxias vecinas,</span>con servicio de dormitorio y comedor en nuestras nuevas aeronaves X-WIN.</p>
+                    <img src="img/nabooroyal.jpg" alt="">
+                </article>
+                <article>
+                    <p>
+                        <span class="titular_aside">Excursiones a los planetas cercanos,</span>(familias, grupos y jubilados con descuento especial) con la máxima rapidez y fiabilidad gracias a nuestros Y-WIN.</p>
+                    <img src="img/shuttle2.jpg" alt="">
+                </article>
+                <article>
+                    <p>
+                        <span class="titular_aside">Servicio regular de transporte al complejo lúdico-deportivo luna 5,</span> todos los fines de semana con un transporte cada hora. Salida desde las capitales mas importantes.</p>
+                    <img src="img/shuttle1.jpg" alt="">
+                </article>
+            </aside>
+        </main>
+        <footer>
+            <p>&copy; Copyright 2023 Designed By<a href="#"></a></p>
+        </footer>
+    </div><!--fin container-->
+</body>
+</html>

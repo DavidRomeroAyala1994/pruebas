@@ -1,0 +1,70 @@
+@charset "utf-8";
+html{
+  scroll-behavior: smooth;  
+}
+body{
+    margin: 0;
+    background-color: aliceblue;
+    font: 20px arial;
+    color:black;
+}
+a:link, a:visited{
+    color: steelblue;
+    font:bold 16px tahoma;
+    text-decoration: none;
+}
+a:hover{
+    color: slateblue;
+    font:bold 18px tahoma;
+    text-decoration: underline;
+}
+#container{
+    width:800px;
+    margin: 20px auto;
+    padding: 5px;
+}
+
+header{
+    text-align: center;
+    
+}
+header img{
+    border:  groove 3px blue;
+    padding: 2px;
+    background-color: whitesmoke;
+}
+h1{
+    font: 36px "Bookman Old Style";
+    color:black;
+}
+h2{
+    font:33px "Bookman Old Style";
+    color: black;
+}
+h3{
+    font: 30px "Bookman Old Style";
+    color:black;
+    margin: 0px;
+    text-align: center;
+    text-shadow: 2px 2px black;
+}
+article,nav{
+    background-color: antiquewhite;
+    border: 2px solid;
+    margin: 5px ;
+    padding: 3px;
+    border-radius: 5px;
+}
+ul li{
+    list-style-type: circle;
+    color: dark;
+}
+footer{
+    background-color: black;
+    color: whitesmoke;
+    font:bold 18px tahoma;
+    padding:0px 5px;
+}
+ol li{
+    list-style-type: upper-roman;
+}

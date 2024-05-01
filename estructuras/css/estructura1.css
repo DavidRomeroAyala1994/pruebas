@@ -1,0 +1,125 @@
+@charset "utf-8";
+
+/*body y elementos del texto*/
+
+body{
+    margin: 0;/*quitamos los margenes de la pagina que vienen por defecto*/
+    background-color: grey;
+    color: black;
+    font: 16px tahoma;
+}
+#container{
+    background-color: whitesmoke;
+    margin: 30px auto;
+    width: 1200px;
+    padding: 5px 10px;
+}
+h1{
+    font: 40px castellar;
+    text-align: center;
+    margin: 0px;
+}
+h2{
+    font: 32px elephant;
+    text-align: center;
+    margin: 0px;
+}
+h3{
+    font: 28px verdana;
+    text-align: center;
+    margin: 0px;
+}
+section img{ 
+    display: block;
+    margin: 0 auto;
+    border: inset 2px black;
+    padding: 4px;
+    background-color: aliceblue;
+    border-radius: 5px;
+}/*cambiamos la imagen a bloque para centrarla con el margin auto*/
+aside img{
+    display: block;
+    margin: 0 auto;
+    
+}
+article>ol>li{
+   list-style: upper-roman;
+}
+aside>ul>li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+    color: slateblue;
+}
+
+/*ESTRTURA DE CAPAS*/
+header{
+    padding: 10px;
+    margin: 0px;
+}
+nav{
+    background-color: antiquewhite;
+    margin: -10px;
+    border-radius: 25px;
+}
+nav>ul>li{
+    list-style: none;
+}
+main{
+    overflow: hidden;
+
+}
+section{
+    float: left;
+    width: 75%;
+}
+aside{
+    float:right;
+    width: 25%;
+    margin: 10px 0px;
+}
+article{
+    margin: 5px;
+    padding: 5px;
+    border-bottom:solid 2px black ;
+}
+
+footer{
+    background-color: black;
+    font: 25px;
+    color: white;
+    text-align: center;
+}
+table{
+    border: outset 4px black;
+    border-collapse: collapse;/* para que no queden huecos entre las celdas*/
+    width: 100%;/*la tabla ocupa todo el espacio disponible*/
+}
+td{
+    border: solid 2px black;
+}
+/*MENU*/
+nav ul{
+    padding: 0;
+    margin:0;
+    text-align: center;
+
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    font: 14px verdana;
+    padding: 5px;
+}
+
+nav ul li a:hover{
+    font: 18px verdana;
+    text-shadow: 2px 2px black;
+
+}

@@ -1,0 +1,10 @@
+@charset "utf-8";
+body{
+    background: black;
+    margin: 0;
+}
+#ventana{
+    margin: 0 auto;
+    width: 530px;
+    height: 400px;
+}

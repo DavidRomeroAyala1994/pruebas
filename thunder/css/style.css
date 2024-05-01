@@ -1,0 +1,147 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: black url(../img/img1.gif)repeat-x;
+    font:small "Trebuchet MS" arial;
+    color: white;
+}
+h1,h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h3{
+    border-bottom: 1px solid #dc0101;
+    background: url(../img/img3.gif) no-repeat left 5px;
+    padding:0 0 5px 15px ;
+    transition: all 1s;
+    margin-top: 10px;
+}
+ul{
+    margin:0 25px;
+}
+a{
+    color: white;
+    text-decoration: underline;
+}
+/*header nav*/
+#container{
+    width: 778px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "section section aside"
+    "footer footer footer";
+    gap: 20px;
+    grid-template-rows: 203px auto 100px;
+}
+#logo{
+    text-align: center;
+}
+header{
+    grid-area: header;
+    display: flex;
+    align-items: flex-end;
+}
+header p{
+    text-align: center;
+}
+header p a{
+    color: white;
+
+} 
+nav{
+    margin: 0 0 15px 20px;
+}
+nav ul{  
+    padding: 0;
+    margin:0;
+    
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    
+   
+}
+ 
+nav ul li a{
+    padding: 5px 20px;
+    text-decoration: none;
+    margin-right: 3px;
+    color:white;
+    font-size: 12px;
+    transition: all 1s;
+}
+.activate, nav ul li a:hover{
+    background: #950000;
+}
+
+/*Section*/
+section article img{
+    border: 1px solid white;
+    display: block;
+    margin: 10px auto;
+    box-shadow: 0 0 10px 1px #dc0101;
+    transition: 1s;
+}
+section ul li{
+    text-decoration: underline;
+}
+#piedefoto{
+    background: #950000;
+    margin:0px -15px;
+    padding: 10px 10px;
+
+}
+#piedefoto p{
+    
+    padding: 0 10px;
+
+}
+/*aside*/
+aside{
+    grid-area: aside;
+}
+
+
+/*footer*/
+footer{
+    grid-area: footer;
+    text-align:center;
+    padding: 20px;
+    background: url(../img/img6.gif)repeat-x;
+}
+
+nav ul li:first-child a, nav ul li a:hover{
+    color:white;
+    background: #2f1a1a url(../img/img2.gif) repeat-x left bottom;
+    border: 1px solid #1e1010;
+    border-bottom: 1px solid #7a6d6d;
+    border-right: 1x solid #7a6d6d;
+    padding: 4px 19px;
+}
+h3:hover{
+    padding: 0 0 5px 30px;
+}
+section article img:hover{
+    border: 3px solid white;
+    box-shadow: 0 0 10px 5px #dc0101;
+    transform:scale(1.1,1.1);
+}
+.logo img{
+    animation: mover 3s;
+}
+@keyframes mover{
+    from{
+        transform: rotate(180deg);
+        margin-left: -400px;
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}

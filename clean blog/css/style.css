@@ -1,0 +1,104 @@
+@charset "utf-8";
+body{
+    font-size: 20px;
+    color: #333;
+    font-family: "Lora", serif;
+}
+p{
+    line-height: 1.5;
+    margin: 30px 0;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 800;
+    font-family: "Open Sans", sans-serif;
+}
+a{
+    color: #333;
+    transition: all .2s;
+}
+a:hover, a:focus{
+      color: #0085A1;
+}
+nav{
+    position: absolute;
+    border-bottom: 1px solid #eee;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+nav .navbar-brand{
+      font-weight: 800;
+      color: #777;
+}
+nav .navbar-toggler{
+      font-size: 12px;
+      font-weight: 800;
+      padding: 13px;
+      color: #777;
+}
+.nav-link{
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 1px;
+}
+header{
+	background-color: #777;
+	background-size: cover;
+	background: url(../img/home-bg.jpg) no-repeat center center;
+    color: white;
+}
+h1{
+    font-size: 80px;
+}
+p{
+    margin: 10px 0 0;
+    font: 300 24px/1.1 'Open Sans', sans-serif;
+}
+h2{
+    font-size: 36px;
+}
+h3{
+    font-size: 1.75rem;
+    font-weight: 300;
+}
+article p{
+    font-size: 18px;
+    font-style: italic;
+    color: #777;
+}
+section .btn{
+    font-size: 14px;
+    font-weight: 800;
+    padding: 15px 25px;
+    letter-spacing: 1px;
+    border-radius: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+footer p{
+    font-size: 14px;
+    font-family: "Lora", serif;
+}
+@media (max-width: 750px) {
+    h1{
+        font-size: 50px;
+    }
+    h2{
+        font-size: 30px;
+    }
+}
+@media (min-width:750px){
+    .is-fixed{
+        position: fixed;
+        top: -77px;
+        border-bottom: 1px solid white;
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+    .navbar-brand, .nav-link{
+        color: #333;
+    }
+    .navbar-brand:hover, .nav-link:hover{
+        color: #0085A1;
+    }
+    .is-visible{
+        top: 0;
+    }
+}

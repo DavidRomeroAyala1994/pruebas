@@ -1,0 +1,26 @@
+@charset "utf-8";
+body{
+    font: 14px Arial;
+    color: green;
+}
+#capa1{
+    margin: 30px auto;
+    width: 300px;
+    background: khaki;
+    border: 5px ridge olivedrab;    
+}
+.grande{
+    font-size: 20px;
+}
+.pequeno{
+    font-size: 10px;
+}
+.verdana{
+    font-family: Verdana;
+}
+.times{
+    font-family: "Times New Roman";
+}
+.color{
+    color: blue;
+}

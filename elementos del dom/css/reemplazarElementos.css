@@ -1,0 +1,14 @@
+@charset "utf-8";
+#capa1{
+    width: 500px;
+    margin: 0 auto;
+    background: lightblue;
+    color:blue;
+}
+.nueva{
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    background: yellow;
+    color: orange;
+}

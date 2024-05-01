@@ -1,0 +1,49 @@
+@charset "utf-8";
+h2{
+	font: 18px "Lucida Grande", sans-serif;
+	margin: 0;
+	padding: 0;
+}
+#titulo{
+	width: 200px;
+	border: thin solid #4D4D4D;
+	padding: 5px;
+	background: #A09E91 url(../img/disc1.jpg) no-repeat;
+	background-position: 185px center;
+	background-size: 12px 12px;
+	margin: 0 auto;
+}
+#texto{
+	width: 250px;
+	text-align: justify;
+	border: thin solid black;
+	padding: 5px;
+	background-color: #A09E91;
+	margin: 0 auto;
+	display: none;
+}
+#info{
+	margin: 30px auto;
+	background-color: lightblue;
+	border: thin solid blue;
+	padding: 5px;
+	width: 400px;
+}
+#masinfo{
+	text-align: justify;
+	font-family: Verdana, sans-serif;
+	display: none;
+}
+#leer{
+	background-color: lightgreen;
+	border: thin solid green;
+	padding: 5px;
+	width: 400px;
+	margin: 0 auto;
+}
+#leermas{
+	font-family: Arial, sans-serif;
+	text-align: justify;
+	overflow: hidden;
+	display: none;
+}

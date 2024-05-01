@@ -1,0 +1,84 @@
+@charset "utf-8";
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font: 14px Verdana;
+    color: navy;
+}
+
+
+h1{
+    font:italic 36px "Book Antiqua";
+    font-family: "book antiqua";
+    color: mediumblue;
+}
+
+h2{
+    font: 28px "Lucida Console";
+    color: dodgerblue;
+}
+h3{
+    font: 26px "Century Gothic";
+    color: cornflowerblue;
+}
+header{
+    padding: 50px 0;
+    text-align: center;
+    background-color: powderblue;
+}
+nav{
+    background-color: blue;
+    text-align: center;
+    overflow: hidden;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    color: snow;
+    text-decoration: none;
+    padding: 15px 25px;
+    display: block;
+    font-size: 20px;
+    margin: 10px;
+}
+nav ul li a:hover{
+    background-color: aqua;
+    color: darkblue;
+    border-radius: 50px;
+}
+article{
+    padding:  45px 10px;
+    margin: 10px auto;
+    width: 75%;
+    font-size: 20px;
+    text-align: justify;
+    overflow: hidden;
+}
+article a{
+    float: right;
+    color: darkred;
+}
+/*menu spiking*/
+.menu_fijo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index:5;
+    border-radius: 0;
+}
+/*formulario*/
+.error{
+	color: red;
+	font-family: Arial;
+	display: none;
+}

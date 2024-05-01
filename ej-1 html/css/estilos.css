@@ -1,0 +1,18 @@
+@charset "utf-8";
+#container{
+    width:800px;
+    margin: 20px auto;
+    background-color: antiquewhite;
+    border: groove 3px darkblue ;
+    padding: 5px;
+}
+#container div{
+    border: solid 2px darkcyan;
+    margin:5px 0px;
+    padding:5px;
+    border-radius: 5px;
+    font: 20px arial;
+}
+html{
+    scroll-behavior: smooth;
+}

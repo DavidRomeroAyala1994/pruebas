@@ -1,0 +1,119 @@
+@charset "utf-8";
+body{
+    background-color: green;
+    margin: 0;
+}
+#container{
+    width: 900px;
+    background-color: aquamarine;
+    margin: 10 auto;
+    border-radius: 20px;
+}
+/*header*/
+h1{
+    font: 32px CASTELLAR;
+    text-align: center;
+}
+h2{
+    font: 28px "arial black";
+    text-align: center;
+    color:brown;
+}
+header{
+    background-color: chocolate;
+    padding: 10px;
+    border-radius: 20px 20px 0 0;
+}
+/*nav*/
+nav ul{
+    padding: 15;
+    margin:0;
+    text-align: center;
+    background-color: teal;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li a{
+    font: 14px verdana;
+    padding: 5px;
+    margin: 10px;
+    background-color: blanchedalmond;
+    border-radius: 5px;
+    box-shadow: 2px 2px dimgrey;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    font: 18px verdana;
+}
+/*section main */
+section{
+    overflow: hidden;
+}
+main{
+    overflow: hidden;
+}
+/*article*/
+article{
+    
+    float: left;
+    width: 600px;
+    
+}
+
+img{
+    width: 200px;
+    border: solid 4px green;
+}
+article img{
+    float:left;
+    margin: 5px;
+}
+h3{
+    font: 24px tahoma;
+    color:brown;
+    text-shadow: 2px 2px gray;
+}
+
+#primero, #tercero{
+    font: 18px verdana;
+    color:darkgreen;
+    text-align: justify;
+}
+#segundo{
+    font: 18px tahoma;
+    color:red;
+    text-align: justify;
+}
+/*aside*/
+aside{
+    float:right;
+    width: 280px;
+}
+aside img{
+    display: block;
+    margin: 0 auto;
+}
+aside p{
+    font: 18px tahoma;
+    color:red;
+    text-align: justify;
+    padding: 10px;
+}
+aside h3{
+    font: 24px tahoma;
+    color:cornflowerblue;
+    text-shadow: 2px 2px gray;
+    
+}
+/*footer*/
+footer{
+    font: 16px arial;
+    color:whitesmoke;
+    background-color: darkgreen; 
+    text-align: center;
+    border-radius: 0 0 20px 20px;
+    padding: 2px;
+}

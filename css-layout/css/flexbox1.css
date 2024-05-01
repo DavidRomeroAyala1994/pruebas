@@ -1,0 +1,32 @@
+@charset "utf8"
+body{ 
+    margin:0;
+    font: 16px verdana;
+    background: aliceblue;
+}
+#container{
+    background: gainsboro;
+    width: 900px;
+    margin: 20px auto;
+    padding: 10px;
+}
+header{
+    background: darkgray;
+    text-align: center;
+}
+section{
+    background: dimgray;
+    color: whitesmoke;
+    margin: 0 10px;
+}
+article{
+    margin: 10px;
+    padding: 5px;
+}
+footer{
+    text-align: center;
+    background: silver;
+}
+.row{
+    display: flex;
+}

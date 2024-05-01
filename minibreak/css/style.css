@@ -1,0 +1,141 @@
+@charset "utf-8";
+body{
+    margin: 0;
+    color: #737373;
+    font: 13px "Open Sans" ;
+    background: #554842 url(../img/img03.jpg);
+}
+nav{
+    text-align: center;
+    background: red url(../img/img02.jpg);
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    display:block;
+    padding: 20px;
+}
+nav ul li a:hover{
+   background: maroon url(../img/img04.jpg);
+}
+#container{
+    margin:50px auto 0 auto;
+    width: 1200px;
+}
+header{
+    text-align: center;
+    color: white;
+}
+h1{
+    font-size: 3rem;
+}
+header p{
+    font-size: 1.2rem;
+}
+header{
+    
+    color: white;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    font-size: 3rem;
+}
+header p{
+    font-size: 1.2rem;
+}
+main{
+    background: white;
+    border-radius: 10px;
+    padding: 40px;
+    display: flex;
+}
+section{
+    flex:3;
+    padding-right: 25px;
+}
+aside{
+    flex: 1;
+}
+section h2{
+    font-size: 1.7rem;
+    font-weight: normal;
+    margin-bottom: 8px;
+}
+.fondonegro{
+    color:white;
+    background: black;
+    font: italic 0.7rem "open sans";
+    margin: 0 0 10px 0;
+    display: inline-block;
+    padding: 8px 12px;
+}
+section img{
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+article{
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    border-bottom: 4px solid #ea5a4b;
+    line-height: 1.2rem;
+}
+article p{
+    text-align: justify;
+}
+article a{
+    color: red;
+    text-decoration: none;
+}
+aside h3{
+    font-size: 1.3rem;
+    font-weight: normal;
+    border-bottom: 4px solid #ea5a4b;
+    padding-bottom: 10px;
+}
+aside ul{
+    padding-left: 20px;
+}
+aside ul li{
+    list-style-image:url(../img/img07.jpg) ;
+    padding-left: 5px;
+    line-height: 2.6rem;
+    font-size: 0.8rem;
+}
+aside ul li a{
+    color: #737373;
+    text-decoration: none;
+}
+aside ul li a:hover{
+    color: #ea5a4b;
+}
+footer{
+    color: white;
+    text-align: center;
+    font-size: 0.8rem;
+}
+footer a{
+    color: #c0c0c0;
+    text-decoration: none;
+}
+aside article{
+    border: none;
+}
+nav{
+    position: fixed;
+    left:0;
+    top:0;
+    width: 100%;
+}

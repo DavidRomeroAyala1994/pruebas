@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coctel</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img
+          src="img/your-cocktail-is-served-ordering-drinks-is-hassle-free-with-coaster-app-99d290685a.jpg"
+          alt=""
+        />
+        <nav>
+          <ul>
+            <li><a href="index.html">principal</a></li>
+            <li><a href="sugerencias.html">sugerencias</a></li>
+            <li><a href="nociones.html">nociones basicas</a></li>
+            <li><a href="vuestrococteles.html">vuestros cocteles</a></li>
+            <li>
+              <a href="ron.html">recetas</a>
+              <div class="recetas">
+                <ul>
+                  <li><a href="ron.html">ron</a></li>
+                  <li><a href="ginebra.html">ginebra</a></li>
+                  <li><a href="whisky.html">whisky</a></li>
+                  <li><a href="cafe.html">cafe</a></li>
+                  <li><a href="sinalcohol.html">sin alcohol</a></li>
+                </ul>
+              </div>
+              <!-- fin recetas -->
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <section>
+          <h1>Mandanos tu receta con este formulario</h1>
+          <form action="mailto:dani@logosformacion.net" method="post" enctype="text/plain" name="formulario" id="formulario">
+        <p>
+                <label for="ingredientes">Ingredientes:</label>
+                <textarea name="ingredientes" id="ingredientes" cols="50" rows="6" required></textarea>
+            </p>
+            <p>
+
+                <label for="preparacion">preparacion</label>
+                <textarea name="preparacion" id="preparacion" cols="50" rows="6" required></textarea>
+            </p>
+            <p>enviado por:</p>
+            <p>
+                <label for="nombre">nombre:</label>
+                <input type="text" name="nombre" id="nombre" required size="30" maxlength="30">
+            </p>    
+            <p>
+                <label for="apellidos">apellidos:</label>
+                <input type="text" name="apellidos" id="apellidos" required size="50" maxlength="60">
+            </p> 
+            <p>
+                <label for="poblacion">poblacion:</label>
+                <input type="text" name="poblacion" id="poblacion" required size="40" maxlength="50">
+            </p> 
+            <p>
+                <label for="email">email:</label>
+                <input type="text" name="email" id="email" required size="30"  pattern="^[_A-Za-z0-9-]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$">
+            </p> 
+            <p>
+                <input type="submit" value="enviar">
+                <input type="reset" value="restablecer">
+                Mandanos tus datos y te enviaremos nuestro CD con todos los cocteles del año pasado.
+            </p>
+        </form>
+      </section>
+      <footer>
+        <div class="pie">
+          <ul>
+            <li><a href="ron.html">ron</a></li>
+            <li><a href="ginebra.html">ginebra</a></li>
+            <li><a href="whisky.html">whisky</a></li>
+            <li><a href="cafe.html">cafe</a></li>
+            <li><a href="sinalcohol.html">sinalcohol</a></li>
+            <li><a href="sugerencia.html">sugerencia</a></li>
+            <li><a href="nociones.html">nociones</a></li>
+            <li><a href="vuestrococteles.html">vuestrococteles</a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,111 @@
+@charset "utf-8";
+body{
+	font-family: Signika;
+	font-weight: 400;
+}
+h1,h2,h3,h4{
+	color: #ffa400;
+  	font-family: Chewy;
+	font-weight: 400;
+}
+a:hover{
+	text-decoration: none;
+}
+hr{
+  border: 1px solid #ffa400;
+  width: 100px;
+  margin: 20px auto;
+ 
+}
+section{
+	padding: 100px 0;
+}
+.navbar{
+    background: white;
+    border: none;
+    box-shadow: 0 2px 8px 0 rgba(50, 50, 50, 0.08);
+    margin: 0;
+    padding: 0;
+}
+.navbar .navbar-brand{
+    color: #ffa400;
+    font-size: 40px;
+    line-height: 35px;
+    font-family: Signika;
+}
+.navbar a{
+    line-height: 35px;
+    color: #ffa400;
+    font-weight: 600;
+}
+.navbar a:hover, .navbar a.active{
+      color:#555;
+}
+.navbar-toggler span{
+	color: #ffa400;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.carousel-caption{
+	bottom: 35%;
+}
+.carousel-caption h2{
+	font-size: 60px;
+}
+.carousel-caption h3{
+	font-size: 30px;
+}
+#about img{
+	border: 2px solid #f2f2f2;
+	padding: 14px;
+}
+#contact i{
+	color: #202020;
+  	font-size: 18px;
+  	padding-right: 10px;
+}
+#contact a{
+	color: #ffa400;
+}
+.form-control{
+  border: 2px solid #f2f2f2;
+  border-radius: 0;
+  box-shadow: none;
+  transition: all 0.4s ease-in-out;
+}
+.form-control:focus,
+.form-control:active{
+  border-color: #ffa400;
+}
+input{
+  height: 50px;
+}
+input[type="submit"]{
+  font-weight: bold;
+  margin:20px 0 80px 0;
+  width: 50%;
+  background: transparent;
+  border: 2px solid #f2f2f2;
+  transition: all 0.4s ease-in-out;
+}
+input[type="submit"]:hover{
+  background: #ffa400;
+  color: white;
+}
+footer{
+  background: #202020;
+  border-bottom: 10px solid white;
+  color: white;
+  text-align: center;
+  padding: 100px 0;
+}
+footer .list-inline-item{
+  padding: 0 15px;
+}
+footer .list-inline-item a{
+    color: white;
+}
+footer .list-inline-item a:hover{
+    color: #ffa400;
+}

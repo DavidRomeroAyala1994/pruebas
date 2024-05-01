@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurante</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img class="foto" src="img/aljaferia.gif" alt="logotipo" />
+        <img class="foto2" src="img/lapergola.gif" alt="logotipo" />
+      </header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Presentación</a></li>
+          <li><a href="instalaciones.html">Instalaciones</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+          <li><a href="carta.html">Carta</a></li>
+        </ul>
+      </nav>
+      <aside>
+        <article>
+          <h3>restaurante aljaferia</h3>
+          <a href="#">Menú especial</a>
+          <a href="#">menu del dia</a>
+          <a href="#">entrantes</a>
+          <a href="#">carnes a la brasa</a>
+          <a href="#">pescados</a>
+          <a href="#">postres caseros</a>
+          <a href="#">carta de vinos</a>
+        </article>
+        <article>
+          <h3>la pergola I</h3>
+          <a href="#">raciones</a>
+          <a href="#">bocadillos</a>
+          <a href="#">almuerzos</a>
+          <a href="#">platos</a>
+          <a href="#">combinados</a>
+        </article>
+        <article>
+          <h3>la pergola II</h3>
+          <a href="#">raciones</a>
+          <a href="#">bocadillos</a>
+          <a href="#">sandwiches</a>
+          <a href="#">platos</a>
+          <a href="#">combinados</a>
+          <a href="#">ensaladas</a>
+        </article>
+      </aside>
+      <section>
+        <article><br><br>
+       <img src="img/aljaferia.gif" alt="logotipo de restaurante">
+       <img src="img/lapergola.gif" alt="logotipo del bar ">
+       <p>¿Desea contactar con nosotros?</p>
+       <p>Puede hacerlo a través de la dirección de e-mail: <strong>info@restaurantealjaferia.com</strong> ,</p>
+       <p>en el teléfono 976 44 57 10,</p>
+       <p> o bien rellene el siguiente formulario:</p>
+      </article>
+      <article>
+        <form action="mailto:dani@logosformacion.net" method="post" enctype="text/plain" name="formulario" id="formulario"><br>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="Nombre" id="Nombre" maxlength="30"   required autofocus><br><br>
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" name="apellidos" id="apellidos" maxlength="50"   required ><br><br>
+            <label for="direccion">direccion:</label>
+            <input type="text" name="direccion" id="direccion" maxlength="60"    ><br><br>
+            <label for="codigopostal">codigo postal:</label>
+            <input type="text" name="codigopostal" id="codigopostal" maxlength="5"   pattern="(0[1-9]|5[0-2]|[1-4][0-9])[0-9]{3}"><br><br>
+            <label for="ciudad">ciudad:</label>
+            <input type="text" name="ciudad" id="ciudad" maxlength="30"   ><br><br>
+            <label for="telefono">telefono:</label>
+            <input type="tel" name="telefono" id="telefono" maxlength="9"   required pattern="^[0-9]{3}\-[0-9]{3}\-[0-9]{4}$"><br><br>
+            <label for="email">email:</label>
+            <input type="email" name="email" id="email" maxlength="50"   required pattern="^[_A-Za-z0-9-]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$" ><br><br>
+            
+            <label for="comentario">Escriba aquí su mensaje:</label><br>
+            <textarea name="comentario" id="comentario" cols="40" rows="15"></textarea><br><br>
+           
+            <input type="submit" value="enviar">
+            <input type="reset" value="restablecer"><br><br>
+        </form>
+      </article>
+      </section>
+      <footer>
+        <p>Pº Mª Agustin, 87</p>
+        <p>50.004 ZARAGOZA</p>
+        <br>
+        <p>telefono: 9760445710</p>
+        <p>e-mail: info@restaurantealjaferia.com</p>
+      </footer>
+    </div>
+    <!-- fin container -->
+  </body>
+</html>

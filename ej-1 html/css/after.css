@@ -1,0 +1,45 @@
+@charset "utf-8";
+.container{
+    margin: 0 auto;
+    width: 1100px;
+    height: 100vh;
+    background: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    margin: 0;
+    background: rgb(43, 43,43);
+}
+h1{
+    font: 3rem castellar;
+    color: rgb(43, 43,43)
+
+}
+h1::after{
+    content: "";
+    display: block;
+    height: 10px;
+    background: darkred;
+    margin:15px 0 15px 0;
+    width: 0;
+    transition: all .5s;
+}
+h1:hover::after{
+    width: 100%;
+}
+h1:hover::before{
+    width: 100%;
+    content: "Buenos dias";  
+}
+h1::before{
+    content: "";
+    display: block;
+    height: 100px;
+    background: blue;
+    margin:15px 0 50px  0;
+    width: 0;
+    transition: all .2 s;
+
+}

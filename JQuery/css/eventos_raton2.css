@@ -1,0 +1,28 @@
+@charset "utf-8";
+#capa1{
+	width: 500px;
+	margin: 0 auto;
+	border: thin solid darkgreen;
+	background-color: lightgreen;
+}
+#capa2{
+	width: 500px;
+	margin: 20px auto 0 auto;
+	border: thin solid darkblue ;
+	background-color: lightblue;
+}
+#capa3{
+	width: 500px;
+	margin: 10px auto 0 auto;
+	border: thin solid tomato;
+	background-color: lightsalmon;
+}
+#imagen{
+	width: 500px;
+	margin: 10px auto 0 auto;
+	text-align: center;
+}
+#boton{
+	display:block;
+	margin:10px auto;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>FORMULARIO DE REPASO CON ELEMENTOS DE JAVASCRIPT</h1>
+    <form action="mailto:dani@logosformacion.net" method="post" enctype="text/plain" name="formulario" id="formulario">
+        <label for="nombre">Nombre: </label>
+        <input type="text" name="nombre" id="nombre">
+        <br><br>
+        <label for="apellidos">Apellidos: </label>
+        <input type="text" name="apellidos" id="apellidos">
+        <br><br>
+        Idioma:
+        <input type="radio" name="idioma" id="es" value="es" checked>
+        <label for="es">Español</label>  
+        <input type="radio" name="idioma" id="in" value="in">
+        <label for="in">Inglés</label>
+        <input type="radio" name="idioma" id="fr" value="fr">
+        <label for="fr">Francés</label>   
+        <br><br>
+        <h2 id="mensaje">Hola Bienvenido</h2> 
+        <label for="contacto">Contacto: </label>
+        <select name="contacto" id="contacto">
+            <option value="">Elige una opción</option>
+            <option value="email">E-mail</option>
+            <option value="telefono">Teléfono</option>
+            <option value="carta">Carta</option>
+        </select>
+        <br><br>
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" disabled>
+        <br><br>
+        <label for="telefono">Teléfono: </label>
+        <input type="tel" name="telefono" id="telefono" disabled>  
+        <br><br>
+        <label for="carta">Dirección: </label>
+        <input type="text" name="carta" id="carta" disabled> 
+        <br><br>
+        <input type="submit" value="Enviar formulario">              
+    </form>
+    <script src="js/repaso-fomulario.js"></script>
+</body>
+</html>

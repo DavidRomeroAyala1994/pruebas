@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*ESTRUCTURAS DE REPETICIÓN
+        ESTRUCTURA FOR
+        ESCRIBIR LOS NÚMEROS DE 1 AL 20*/
+        for (let i = 1;i <= 20;i++)
+        {
+            document.write(i+"<br>");
+        }
+        /*MUESTRA LA TABLA DE MULTIPLICAR DE UN NÚMERO QUE 
+        INTRODUCE EL USUARIO*/
+        let num = parseInt(prompt("Dame el nº de la tabla"));
+        for (let i = 1;i <= 10;i++)
+        {
+            document.write(num+" x "+i+" = "+num*i);
+            document.write("<br>");
+        }
+        //PEDIMOS AL USUARIO 3 NÚMEROS Y LE MOSTRAMOS LA MEDIA
+        let total = 0;
+        let numero = 0;
+        for (let i = 1;i <= 3;i++)
+        {
+            numero = parseInt(prompt("Introduce un número"));
+            total = total + numero;
+        }
+        let media = total/3;
+        media = media.toFixed(2);
+        document.write("La media es: "+media);
+        //EL USUARIO INTRODUCE UN Nº Y MOSTRAMOS
+        //TODOS LOS NÚMEROS PARES HASTA ESE NÚMERO
+        let limite = parseInt(prompt("Escribe el nº límite"));
+        for (let i = 2;i <= limite;i = i+2)
+        {
+            document.write("<br>"+i);
+        }
+        //MOSTRAR LOS NÚMEROS IMPARES DESDE 11 HASTA 51
+        for (let i = 11;i <= 51;i = i + 2)
+        {
+            document.write("<br>"+i);
+        }
+        //MOSTRAMOS TODOS LOS NÚMEROS ENTRE DOS QUE NOS INTRODUCE EL USUARIO
+        let num1 = parseInt(prompt("Nº inicial"));
+        let num2 = parseInt(prompt("Nº final"));
+        let inicio;
+        let final;
+        if (num1 < num2)
+        {
+            inicio = num1;
+            fin = num2;
+        }
+        else 
+        {
+            inicio = num2;
+            fin = num1;
+        }
+        for (let i = inicio+1;i < fin;i++)
+        {
+            document.write("<br>"+i);
+        }
+    </script>
+</body>
+</html>

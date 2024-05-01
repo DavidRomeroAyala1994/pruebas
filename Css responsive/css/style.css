@@ -1,0 +1,117 @@
+@charset "utf-8";
+body{
+    margin: 0;
+    background: white;
+    font: 14px arial;
+}
+a{
+    text-decoration: none;
+    color: indigo;
+
+}
+a:hover{
+    text-decoration: underline;
+    color: deeppink;
+}
+/*Diseño para movil*/
+#container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px auto repeat(4, 175px) 100px;
+    grid-template-areas: 
+    "header"
+    "nav"
+    "articulo1"
+    "articulo2"
+    "articulo3"
+    "articulo4"
+    "footer";
+}
+header{
+    grid-area: header;
+    background: darkturquoise;
+}
+nav{
+    grid-area: nav;
+    background: darkgoldenrod;
+}
+#articulo1{
+    grid-area: articulo1;
+    background: firebrick;
+}
+#articulo2{
+    grid-area: articulo2;
+    background: gold;
+}
+#articulo3{
+    grid-area: articulo3;
+    background: forestgreen;
+}
+#articulo4{
+    grid-area: articulo4;
+    background: dodgerblue;
+}
+aside{
+    grid-area: aside;
+    background: darksalmon;
+    display: none;
+}
+footer{
+    grid-area: footer;
+    background: darkseagreen;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction:column ;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    background:aliceblue;
+    padding: 10px 5px;
+    display: block;
+    text-align: center;
+    margin: 5px 0;
+}
+nav ul li a:active{
+    color: black;
+    background: slategray;
+}
+@media(min-width: 550px){
+    #container{
+        grid-template-areas: 
+        "header header header"
+        "nav nav nav"
+        "articulo1 articulo2 aside"
+        "articulo3 articulo4 aside"
+        "footer footer footer";
+        grid-template-columns: 1fr 1fr 150px;
+        grid-template-rows: 100px 60px repeat(2,auto) 48px;
+    }
+    nav ul{
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 10px;
+    }
+    aside{
+        display:block;
+    }
+}
+@media (min-width:1000px){
+    #container{
+        grid-template-areas: 
+        "header header header header header"
+        "nav nav nav nav nav"
+        "articulo1 articulo2 articulo3 articulo4  aside"
+        "footer footer footer footer footer";
+        grid-template-columns: repeat(4,1fr)200px;
+        grid-template-rows: 100px 60px auto 48px;
+    }
+}
+

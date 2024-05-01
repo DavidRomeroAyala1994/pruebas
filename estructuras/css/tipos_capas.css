@@ -1,0 +1,61 @@
+@charset "utf-8";
+#estatica{
+    border: solid 5px blue;
+    background-color: lightblue;
+    width: 300px;
+    height: 50px;
+    overflow: auto;
+}
+#absoluta{
+    border: solid 5px red;
+    background-color: lightcoral;
+    width: 300px;
+    position: absolute;
+    top:350px;
+    left:650px;
+}
+#fija{
+    border: solid 5px green;
+    background-color: lightgreen;
+    width: 300px;
+    position: fixed;
+    right: 100px;
+    top: 400px;
+}
+#estatica2{
+    border: solid 5px grey;
+    background-color: lightgrey;
+    width: 600px;
+    overflow: hidden;
+}
+#flotante1, #flotante2{
+    border: solid 5px yellow;
+    background-color: greenyellow;
+    width: 200px;
+    float:right;
+}
+#relativa{
+    border: solid 5px purple;
+    background-color: lightpink;
+    width: 800px;
+    height: 600px;
+    position: relative;
+    left: 100px;
+    z-index: -5;
+}
+#absoluta2{
+    border: solid 5px darkslategrey;
+    background-color: lightseagreen;
+    width: 300px;
+    position: absolute;
+    right: 150px;
+    bottom: 200px;
+}
+#sticky{
+    border: solid 5px salmon;
+    background-color: lightsalmon;
+    width: 300px;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}

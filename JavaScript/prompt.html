@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prompt</title>
+</head>
+<body>
+    <script>
+        /*ejercicio que nos pide el nombre, apellidos, edad, peso, altura en cm y nos pregunta si tenemos carnet de conducir*/
+        /*estos datos los guardaremos en variables y luego los mostramos en la pagina web*/
+        /* preguntamos los datos al usuario y llenamos las variables*/
+        let nombre = prompt("escribe tu nombre");
+        let apellidos = prompt("escribe tus apellidos");
+        let edad = prompt("escribe tu edad");
+        let altura = prompt("escribe tu altura");
+        let peso = prompt("introduce tu peso");
+        let carnet = confirm("¿tienes carnet de conducir?");
+        /*mostramos el contenido de las variables recogidas en la pagina web */
+        document.write("te llamas "+nombre+" "+apellidos);
+        document.write("<br>");
+        document.write("edad: "+edad+" peso:"+peso+" altura: "+altura );
+        document.write("<br>");
+        document.write("carnet de conducir: "+carnet);
+    </script>
+</body>
+</html>

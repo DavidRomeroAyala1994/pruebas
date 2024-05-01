@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/formulario.css">
+</head>
+<body>
+    <form action="mailto:dani@logosformacion.net" method="post" id="formulario" name="formulario">
+        <p>
+            <label for="nombre">Nombre: </label>
+            <input type="text" name="nombre" id="nombre" required autofocus size="25" maxlength="25">
+            <span class="error">Nombre incorrecto</span>
+        </p>
+        <p>
+            <label for="edad">Edad: </label>
+            <input type="number" name="edad" id="edad" required max="100" min="18">
+            <span class="error">Edad incorrecta</span>
+        </p>
+        <p>
+            <label for="email">E-mail: </label>
+            <input type="email" name="email" id="email" required size="25" pattern="^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$">
+            <span class="error">E-mail incorrecto</span>
+        </p>
+        <p>
+            Sexo:
+            <input type="radio" name="sexo" id="sexo_0" required checked value="M"><label for="sexo_0"> Mujer</label>
+            <input type="radio" name="sexo" id="sexo_1" required value="H"><label for="sexo_1"> Hombre</label>
+        </p>
+        <p><label for="idioma"></label>
+            <select name="idioma" id="idioma" required>
+                <option value="" selected>Seleccione un idioma</option>
+                <option value="E">Español</option>
+                <option value="I">Inglés</option>
+                <option value="F">Francés</option>
+            </select>
+            <span class="error">Elige un idioma</span>
+        </p>
+        <p>
+            <input type="checkbox" name="condiciones" id="condiciones" required>
+            <label for="condiciones">Acepta las condiciones</label>
+            <span class="error"> Debes aceptar las condiciones</span>
+        </p>
+        <p>
+            <input type="submit" value="Enviar" id="enviar" name="enviar">
+        </p>
+    </form>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/formulario.js"></script>
+</body>
+</html>

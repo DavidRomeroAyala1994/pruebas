@@ -1,0 +1,119 @@
+@charset "utf-8";
+body{
+    background: #fff;
+    font-family: "Titillium Web", sans-serif;
+}
+h1,h2,h3{
+    font-family: "Stick No Bills", sans-serif;
+    font-weight: 600;
+}
+h1{
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+p{
+    line-height: 1.6em;
+}
+.navbar{
+    background: #fff;
+    box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
+    height: 70px;
+} 
+.navbar-brand{
+    color: #28a7e9;
+    font-size: 30px;
+    font-weight: 600;
+}
+#menu{
+    background-color: white;
+}
+#menu a{
+    color: #666 !important;
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-right: 10px;
+} 
+#menu a.active, #menu a:hover{
+    background: lightgray;
+}
+.fa-bars{
+    color: #28a7e9;
+    font-size: 30px;
+}
+nav button:focus{
+    box-shadow: none !important;
+}
+#home{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../img/home-bg.jpg) no-repeat;
+    background-size: cover;
+    color: #fff;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+#home img{
+    margin-top: 30px;
+}
+#iconos{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+h3{
+    font-size: 28px;
+}
+#features{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#features p{
+    padding-top: 10px;
+}
+#pricing{
+    padding: 80px;
+    background: #f8f8f8;
+}
+#pricing h2{
+    padding-bottom: 60px;
+}
+.card-text{
+    padding: 16px;
+}
+#download{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#download h2{
+    padding-bottom: 20px;
+}
+#download p{
+    margin-bottom: 1rem;
+}
+#contact{
+    background: linear-gradient(rgba(0 ,0, 0, 0.4),rgba(0, 0, 0, 0.4)),  url(../img/contact-bg.jpg) no-repeat;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    color: #f8f8f8;
+}
+#contact .form-control{
+    border: none;
+    border-radius: 0px;
+    box-shadow: none;
+}
+#contact input{
+    height: 50px;
+}
+footer{
+    background: #fff;
+    font-weight: 400;
+    padding: 20px;
+}
+/* BOTÓN SUBIR */
+.subir{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    display: none;
+}
+.subir a:hover i{
+    color:blue !important;
+}

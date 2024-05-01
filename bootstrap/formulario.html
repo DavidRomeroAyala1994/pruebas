@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+    <form action="mailto:a@a.es" method="post" id="formulario" name="formulario" enctype="text/plain" class="was-validated">
+        <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" class="form-control" name="nombre" id="nombre" aria-describedby="helpId" placeholder="nombre" required>
+            <small id="helpId" class="form-text text-muted" >indique su nombre</small>
+            <div class="valid-feedback">ok</div>
+            <div class="invalid-feedback">debes escribir un nombre</div>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" name="emial" id="email"  placeholder="email" required pattern="^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$">
+            
+            <div class="valid-feedback">ok</div>
+            <div class="invalid-feedback">debes escribir un email</div>
+        </div>
+
+        <div class="form-group">
+          <label for="comentarios">Comentarios:</label>
+          <textarea class="form-control" name="comentarios" id="comentarios" rows="3" required></textarea>
+          <div class="valid-feedback">ok</div>
+          <div class="invalid-feedback">debes escribir algo</div>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="checkbox" class="form-check-input" name="cajita" id="cajita" value="checkedValue" required>
+            cajita
+            <div class="valid-feedback">ok</div>
+            <div class="invalid-feedback">debes marcar la cajita</div>
+          </label>
+        </div>
+        <div class="form-check form-check-inline">
+            <label class="form-check-label">
+                <input class="form-check-input" type="radio" name="opcion" id="opcion1" value="checkedValue"> Opcion 1
+            </label>
+            <label class="form-check-label ms-4">
+                <input class="form-check-input" type="radio" name="opcion" id="opcion2" value="checkedValue"> Opcion 2
+            </label>
+        </div>
+        <div class="form-group">
+          <label for="desplegable">Desplegable</label>
+          <select class="form-control" name="desplegable" id="desplegable" required>
+            <option value="" disabled selected>Elige una opcion</option>
+            <option value="1">opcion 1</option>
+            <option value="2">opcion 2</option>
+            <option value="3">opcion 3</option>
+          </select>
+          <div class="valid-feedback">ok</div>
+            <div class="invalid-feedback">elige una opcion</div>
+        </div>
+
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="my-addon">Text</span>
+            </div>
+            <input class="form-control" type="text" name="texto" placeholder="Recipient's text" aria-label="Recipient's text" aria-describedby="my-addon" required>
+            <div class="valid-feedback">ok</div>
+            <div class="invalid-feedback">escribe </div>
+        </div>
+
+        <div class="input-group">
+            <input class="form-control" type="text" name="" placeholder="Recipient's text" aria-label="Recipient's text" aria-describedby="my-addon" required>
+            <div class="input-group-append">
+                <span class="input-group-text" id="my-addon">Text</span>
+            </div>
+            <div class="valid-feedback">ok</div>
+            <div class="invalid-feedback">escribe </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Enviar</button>
+        <button type="reset" class="btn btn-danger">Reset</button>
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+@charset "utf-8";
+body{
+    font-family: Lato;
+}
+p{
+    font-size: 20px;
+}
+a, a:hover{
+    color: #18BC9C;
+    outline: none;
+}
+button:focus{
+    outline: none;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: Montserrat;
+    font-weight: 700;
+}
+section, header{
+    padding: 100px 0;
+}
+section h2{
+      font-size: 3em;
+      margin: 0;
+}
+header, #about{
+    color: white;
+    background: #18BC9C;
+}
+nav{
+	font: 700 20px Montserrat;
+	color:white;
+	background: #2C3E50;
+	letter-spacing: 1px;
+    padding: 25px 0 !important;
+}
+nav a{
+      color:white !important;
+}
+nav a:hover, nav a.active{
+      color:#18BC9C !important;
+}
+nav button span{
+    color: white;
+}
+.nav-reducido{
+    padding: 10px !important;
+    font-size: 14px;
+}
+.form-control{
+	border: none;
+	border-bottom: 1px solid gray;
+	border-radius: 0px;
+}
+footer{
+	background:#2C3E50;
+	color:white;
+}
+footer a:hover i{
+      color:#18BC9C;
+}
+footer a:hover{
+      border: 1px solid #18BC9C !important;
+}
+.star-light, .star-primary{
+    max-width: 250px;
+    margin: 25px auto 30px;
+    padding: 0;
+    text-align: center;
+    border: none;
+    border-top: solid 5px;
+    opacity: 1;
+  }
+hr.star-light{
+    border-color: white;
+}
+hr.star-primary{
+    border-color: #2C3E50;
+}
+.linea{
+    position: relative;
+    width: 250px;
+    margin: 0 auto;
+    padding: 30px;
+}
+.linea i{
+    position: absolute;
+    top: 42px;
+    left: 99px;
+}
+hr.star-light+i{
+    background-color: #18BC9C;
+    padding:0 8px;
+}
+hr.star-primary+i{
+    background-color: white;
+    padding:0 8px;
+}
+#portfolio .col-md-4{
+    margin: 0 0 15px;
+}
+.portfolio-link{
+      position: relative;
+      display: block;
+      max-width: 400px;
+      margin: 0 auto;
+      cursor: pointer; 
+}
+.caption{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        transition: all ease 0.5s;
+        opacity: 0;
+        background: rgba(24, 188, 156, 0.9);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+}
+.caption:hover{
+        opacity: 1;
+}
+#portfolio *{
+    z-index: 2;
+}
+.modal-content ul li{
+  list-style: none;
+}

@@ -1,0 +1,18 @@
+@charset "utf-8";
+.marron{
+    background-color: brown;
+}
+.azul{
+    background-color: blue;
+}
+.rojo{
+    background-color: red;
+}
+.verde{
+    background-color: lightgreen;
+}
+.texto_amarillo{
+    color: yellow;
+    font: 14px verdana;
+    font-weight: bold;
+}

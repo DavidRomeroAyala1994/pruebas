@@ -1,0 +1,20 @@
+@charset "utf-8";
+#capa1{
+    width: 500px;
+    margin: 0 auto;
+}
+.rojo{
+    background: #ffadae;
+    color: red;
+    border: medium solid #5a0406;
+}
+.verde{
+    background: #88fbdf;
+    color: green;
+    border: medium solid #00552c;
+}
+.azul{
+    background: #39dffb;
+    color: blue;
+    border: medium solid #00034b;
+}

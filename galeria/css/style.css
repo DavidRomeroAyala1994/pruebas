@@ -1,0 +1,39 @@
+@charset "utf-8";
+body{
+    background: #333;
+    font-family: sans-serif;
+    margin: 0;
+}
+header{
+    max-width: 1024px;
+    text-align: center;
+    margin: 30px auto;
+}
+h1{
+    font-size: 8vw;
+    color: white;
+    font-weight: 600;
+}
+#galeria{
+    padding: 20px 0; 
+}
+.contenedor_galeria{
+    max-width: 1024px;
+    width: 94vw;
+    margin: 0 auto;
+    background: #777;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 10px;
+    padding: 10px;
+}
+.foto img{
+    width: 100%;
+    height: auto;
+}
+@media(min-width:1000px){
+    h1{
+        font-size: 80px;
+    }
+
+}

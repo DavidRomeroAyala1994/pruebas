@@ -1,0 +1,182 @@
+@charset "utf-8";
+
+/* font-face permite usar en la hoja de estilos una fuente descargada en una carpeta*/
+@font-face{
+    font-family: "space age";
+    src: url("../fonts/space age.ttf");
+}
+html{
+    font: 12px Arial;
+    color: black;
+}
+body{
+    margin: 0;
+    background: black url(../img/bg.gif);
+}
+
+/*Elementos de texto*/
+a{
+    color: #00E;
+}
+a:hover{
+    color:#32A5E7;
+    text-decoration: none;
+}
+h1{
+    color: #d2d2d2;
+    font: 4.1rem Audiowide, arial;
+}
+h2{
+    font: 400 1.67rem "space age", arial;
+    color: white;
+    background: url(../img/tit_left.gif) no-repeat;
+    padding: 12px 0 0 14px;
+    height: 32px;
+}
+
+/*Elementos de estructura*/
+#container{
+    margin: 0 auto;
+    width: 1015px;
+    background: url(../img/main.jpg) no-repeat left top;
+    min-height: 100vh; /*el container ocupa todo el alto de la pantalla como minimo*/
+}
+header{
+    height: 358px;
+}
+#logo{
+    float: right;
+    text-align: center;
+    padding: 50px 15px 0 0;
+}
+#logo p{
+    color: white;
+    font: 400 1.83rem verdana;
+}
+nav{
+    float: left;
+    padding: 50px 0 0 50px;
+}
+nav div{
+    float: 196px;
+    background: url(../img/but_fish.png) no-repeat;
+    padding-left: 60px;
+}
+nav div a{
+    font: 400 normal 24px "Baumans", Arial;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px; /*Espacio entre letras*/
+    height: 40px;
+    display: block;/*hacemos que los "a" funcionen como botones*/
+    padding-top: 20px;
+}
+nav div:nth-child(odd){
+    margin-left: 50px;
+}
+main{
+    width: 972px;
+    margin: 0 auto;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 10px 5px;
+    background: white;
+}
+section{
+    width: 682px;
+    float: left;
+}
+section article{
+    overflow: hidden;
+    padding: 10px;
+}
+section article img{
+    float: left;
+    margin-right: 10px;
+}
+aside{
+    width: 275px;
+    float: right;
+}
+.titular{
+    font-weight: bold;
+    color: #32A5E7;
+    margin-top: 0;
+}
+.leer{
+    float: right;
+    margin-right: 10px;
+}
+.articuloizq{
+    width: 310px;
+    float: left;
+    min-height: 150px;
+}
+.articuloder{
+    width: 330px;
+    float: right;
+    min-height: 150px;
+}
+aside h2{
+    background: url(../img/tit_right.gif) no-repeat;
+}
+aside article{
+    background: url(../img/fish.gif) 0 4px no-repeat;
+    padding: 15px 0 0 36px;
+    width: 226px;
+}
+.articuloder p, .articuloizq p{
+    margin: 0;
+}
+.fecha{
+    color:#001B50;
+    text-decoration: underline;
+    line-height: 25px;
+    font-weight: bold;
+    margin-top: 0;
+}
+.titular_aside{
+    font-weight: bold;
+    color:#001B50;
+    margin-top: 0;
+}
+footer{
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+footer a{
+    color: white;
+    font-weight: bold;
+}
+aside img{
+    max-width: 200px;
+}
+.jupiter{
+    font: 50px "Cinzel Decorative", Verdana;
+    text-shadow: 2px 2px 2px #5A5A5A;
+    color:#237457;
+}
+.marte{
+    font:54px Kranky, Verdana;
+    color: #B54F0A;
+    text-shadow: 3px 2px 2px #C31D20;
+}
+.pluton{
+    font:53px "Denk One", Verdana;
+    color:#2F488B;
+    text-shadow: 2px 2px 1px #0A2F18;
+}
+.nave{
+    font: 30px "Fredericka the Great", Verdana;
+    color: #FF6205;
+    text-shadow: 1px 1px 8px #050505;
+}
+.neptuno{
+    font: 40px "Metamorphous", Verdana;
+    color:#1BBC96;
+    text-shadow: 2px 2px 1px #0A2F18;
+}
+/*form*/
+input{margin: 5px 0;}
+textarea{margin: 5px;}

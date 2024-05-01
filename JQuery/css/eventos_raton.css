@@ -1,0 +1,19 @@
+@charset "utf-8";
+#capa1{
+	width: 500px;
+	margin: 0 auto;
+	background-color: lightblue;
+	color: darkblue;
+}
+#capa2{
+	width: 400px;
+	margin-top: 20px;
+	background-color: lightblue;
+	color: navy;
+	}
+#capa3{
+	width: 300px;
+	margin-top: 20px;
+	background-color: lightgreen;
+	color: darkgreen;
+}

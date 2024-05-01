@@ -1,0 +1,29 @@
+@charset "utf-8";
+body{
+    margin: 0;
+}
+#container{
+    margin: 0 auto;
+    width: 1000px;
+    background: lightblue;
+    padding: 20px;
+    border: 3px groove darkblue;
+}
+input, textarea, select{
+    border: 3px solid darkblue;
+    background: lightblue;
+    border-radius: 5px;
+    padding: 5px;
+}
+input:focus,textarea:focus{
+    background: lightsalmon;
+}
+input[type="submit"]{
+    background: greenyellow;
+}
+form>*{
+    display: block;
+}
+input[type="radio"]{
+    display: inline;
+}

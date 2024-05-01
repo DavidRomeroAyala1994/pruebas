@@ -1,0 +1,14 @@
+@charset "utf-8";
+#capa1{
+    width: 350px;
+    padding: 5px;
+    background: darkgoldenrod;
+    color: indigo;
+    margin: 30px auto;
+}
+.verde{
+    border: 5px groove darkslategrey;
+    font-family: Castellar;
+    background-color: aqua !important;
+    color: dodgerblue !important;
+}

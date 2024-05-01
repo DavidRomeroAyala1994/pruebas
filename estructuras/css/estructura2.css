@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+/*body y elementos del texto*/
+
+body{
+    margin: 0;/*quitamos los margenes de la pagina que vienen por defecto*/
+    background-color: grey;
+    color: black;
+    font: 16px tahoma;
+}
+#contenedor{
+    width: 1000px;
+    background-color: aliceblue;
+    margin: 0 auto;
+    padding: 0px;
+}
+header{
+    overflow: hidden;
+}
+#logo{
+    float: left;
+}
+nav{
+    float: right;
+}
+
+
+main{
+    overflow: hidden;
+    margin: 5px;
+}
+aside{
+    float:left;
+    width: 230px;
+}
+section{
+    float: right;
+    width: 730px;
+}
+
+p{
+    font: 20px arial ;
+    color: black;
+    text-align: justify;
+    margin: 5px;
+    padding: 5px;
+}
+aside img{
+    border: solid 2px ;
+    padding: 2px;
+    display: block;
+    margin: 0 auto;
+}
+article img{
+    border: solid 2px;
+    padding: 2px;
+}
+iframe{
+    border: solid 2px black;
+    padding: 2px;
+}
+footer{
+    background-color: black;
+    font: 18px arial;
+    color:white;
+    text-align: center;
+    padding: 5px;
+}
+article{
+    margin: 3px;
+}
+/*MENU*/
+nav ul{
+    padding: 0;
+    margin:0;
+    text-align: center;
+    margin: 25px 25px;
+    
+    
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li a{
+    font: 14px verdana;
+    padding: 5px;
+    margin: 10px;
+   background-color: white;
+    box-shadow: 2px 2px dimgrey;
+}
+
+nav ul li a:hover{
+    font: 18px verdana;
+    text-shadow: 2px 2px grey;
+
+}
+header{
+    background-color: aquamarine;
+    margin: 0px;
+    padding: 5px;
+}
+h1{
+    font: 40px arial;
+    color:black;
+}

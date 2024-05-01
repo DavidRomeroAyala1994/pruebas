@@ -1,0 +1,118 @@
+@charset "utf-8";
+body{
+    margin:0;
+    color:#9a9a9a;
+    font: 12px/1.8em arial;
+    background: #e7e9eb url(./img/main_bg.gif)repeat-x;
+}
+h1{
+    margin: 0;
+    color: #1f7fbb;
+    font: normal 46px/1.2em arial;
+    letter-spacing: -2px;
+}
+h1 span{
+    color: white;
+}
+header p{
+    color: white;
+    margin: 20px 0 0 20px;
+    font-size: 12px;
+}
+#container{
+    width: 970px;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    height: 100px;
+    align-items: center;
+}
+nav{
+    display: flex;
+    justify-content:left ;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    color:#fdfdfd;
+    font-size: 13px;
+    text-decoration: none;
+    margin-right: 25px;
+    padding: 2px;
+    display: block;
+}
+nav ul li a:hover, a.active{text-decoration: underline;}
+main{
+    display: flex;
+    justify-content: space-between;
+}
+section{
+    flex: 9;
+    margin-right: 50px;
+}
+aside{
+    flex: 3;
+}
+article{
+    padding: 30px 20px;
+    margin-bottom: 20px;
+    border: 1px solid #d8d6d6;
+    background: #fefefe url(./img/post_bg.gif)repeat-x;
+}
+h2{
+    font: normal 24px arial;
+    margin: 5px 0;
+    color:#595959;
+}
+select article img{
+    padding: 4px;
+    border: 1px solid #eaecec;
+    background: white;
+}
+section a{
+    color: #2cadff;
+    text-decoration: none;
+}
+section a:hover{
+    text-decoration: underline;
+}
+aside ul{
+    margin: 0;
+    padding: 0;
+}
+aside ul li{
+    list-style: none;
+    border-bottom: 1px solid #dedede;
+    padding: 4px 0 4px 12px;
+}
+aside ul li a{
+    color: #959595;
+    text-decoration: none;
+}
+aside ul li a:hover{
+    text-decoration: underline;
+}
+.firma{
+    text-align: right;
+    font-weight: bold;
+    color: #595959;
+}
+footer{
+    background: #272727;
+}
+#pie {
+    width: 970px;
+    margin: 0 auto;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,38 @@
+@charset "utf-8";
+body{
+    margin: 0;
+    background: white;
+    color: white;
+}
+#container{
+    margin: 0;
+    width: 1000px;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    "header header header header header"
+    "nav section section section aside"
+    "footer footer footer footer footer";
+    grid-template-rows: 150px 60% 100px;
+    grid-template-columns: 200px  auto auto auto 250;
+}
+header{
+    background: dodgerblue;
+    grid-area: header;
+}
+nav{
+    background: cornflowerblue;
+    grid-area: nav;
+}
+section{
+    background: deepskyblue;
+    grid-area: section;
+}
+aside{
+    background: lightblue;
+    grid-area: aside;
+}
+footer{
+    background:aqua;
+    grid-area: footer;
+}

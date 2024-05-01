@@ -1,0 +1,25 @@
+@charset "utf-8";
+div{
+	margin: 0 auto 20px auto;
+	width: 500px;
+	padding: 5px;
+	text-align: justify;
+}
+.textoazul{
+	color: blue;
+}
+.fondoclaro{
+	background-color: lightblue;
+}
+.fondooscuro{
+	background-color: darkblue;
+}
+.textoblanco{
+	color: white;
+}
+.bordemedio{
+	border: medium inset black;
+}
+.bordefino{
+	border: thin outset black;
+}
